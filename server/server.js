@@ -56,6 +56,20 @@ io.on('connection', socket => {
             socket.emit('exception',  { mgs: 'Wrong role for action subscribe or client has not registered' })
         }
     });
+    socket.on('unsubscribe', data => {
+        if(clients.consumers.indexOf(socket.id) != -1) {
+            if(data.channel) {
+                writeLog(1, `SUB > client with id=${socket.id} unsubscribed channel with id=${data.channel}`)
+                if(channels.indexOf(data.channel) != -1) {
+                    channelObjs[data.channel].removeConsumer(socket.id);   
+                } 
+            } else {
+                socket.emit('exception',  { mgs: 'Channel must be specified in payload.channel' });
+            }
+        } else {
+            socket.emit('exception',  { mgs: 'Wrong role for action subscribe or client has not registered' })
+        }
+    });
     socket.on('data', data => {
         if(clients.producers.indexOf(socket.id) != -1) {
             if(data && data.channel && data.payload) {

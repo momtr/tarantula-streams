@@ -51,4 +51,10 @@ class TarantulaStreamsConsumer extends TarantulaStreamsClient {
             throw new Error('data and callback must be specified');
     }
 
+    unsubscribe(channel) {
+        if(!channel)
+            throw new Error('channel must be specified');
+        this.socket.emit('unsubscribe', { channel });
+    }
+
 }

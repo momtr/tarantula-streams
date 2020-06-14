@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="lib/socket.io.slim.js"></script>
+    <script src="lib/tarantulaStreamsClient.js"></script>
+</head>
+<body>
+    <script>
+        let producer = new TarantulaStreamsProducer('ws://localhost:3001', () => console.log('connection established'));
+        let consumer = new TarantulaStreamsConsumer('ws://localhost:3001', () => console.log('connection established'));
+    </script>
+</body>
+</html>

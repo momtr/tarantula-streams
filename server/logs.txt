@@ -1,0 +1,14 @@
+### Tarantula-Streams ###
+started server at 1592149440462ms
+Logging level: 2
+
+
+DIS > client with id=GF44KOTAW8vtHZR-AAAB disconnected
+DIS > client with id=FaxvCnjm3tkTTwcWAAAA disconnected
+REG > registered producer with id=qzY5OoinpSkelsorAAAC
+REG > registered consumer with id=9T-58s3DWM6C1334AAAD
+### Tarantula-Streams ###
+started server at 1592149466322ms
+Logging level: 2
+
+

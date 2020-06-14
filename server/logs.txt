@@ -963,3 +963,138 @@ ADD > client with id=ThnFn9KAfK5E-TIMAAHK added data instance to stack of channe
 ADD > client with id=ThnFn9KAfK5E-TIMAAHK added data instance to stack of channel with id=one
 ADD > client with id=ThnFn9KAfK5E-TIMAAHK added data instance to stack of channel with id=one
 ADD > client with id=ThnFn9KAfK5E-TIMAAHK added data instance to stack of channel with id=one
+DIS > client with id=ThnFn9KAfK5E-TIMAAHK disconnected
+DIS > client with id=ShfgOc9pgm_wMefBAAHL disconnected
+DIS > client with id=GVBP0qvyYFUZJ32CAAHM disconnected
+DIS > client with id=O6PaXhrSzaS_lIvuAAHN disconnected
+DIS > client with id=cRmXoTw4alyDm5QWAAHO disconnected
+DIS > client with id=5p8FPJ7_p47FPXqjAAHP disconnected
+DIS > client with id=FzSvy7pKI3bKJBM8AAHQ disconnected
+DIS > client with id=shEm4Non-wB4E9VKAAHR disconnected
+DIS > client with id=TvYaqvyMwL-XasVlAAHS disconnected
+DIS > client with id=HN7CtI_GD1zbdQ39AAHT disconnected
+DIS > client with id=qpeSSKIFsXyxAObyAAHU disconnected
+DIS > client with id=3iALzLOdQ8vuA8vpAAHV disconnected
+DIS > client with id=_qNoFJIyl1-xajW5AAHW disconnected
+### Tarantula-Streams ###
+started server at 1592152365667ms
+Logging level: 2
+
+
+### Tarantula-Streams ###
+started server at 1592152380648ms
+Logging level: 2
+
+
+### Tarantula-Streams ###
+started server at 1592152381561ms
+Logging level: 2
+
+
+DIS > client with id=myPJUC0mL0G7x10VAAAB disconnected
+DIS > client with id=rSNTrJ4sRc7JE4irAAAA disconnected
+REG > registered producer with id=-nDH8-IeQLZnMWPnAAAC
+REG > registered consumer with id=0-iw2HIYBty9iHzHAAAD
+SUB > client with id=0-iw2HIYBty9iHzHAAAD registered for one
+SET > created new channel with id=one
+ADD > client with id=-nDH8-IeQLZnMWPnAAAC added data instance to stack of channel with id=one
+### Tarantula-Streams ###
+started server at 1592152410852ms
+Logging level: 2
+
+
+DIS > client with id=fO8BcY335OPa0nlHAAAA disconnected
+REG > registered producer with id=dskz93xVY6wXuSPpAAAB
+REG > registered consumer with id=qM2PPeIFLTp9QGWoAAAC
+SUB > client with id=qM2PPeIFLTp9QGWoAAAC registered for one
+SET > created new channel with id=one
+ADD > client with id=dskz93xVY6wXuSPpAAAB added data instance to stack of channel with id=one
+### Tarantula-Streams ###
+started server at 1592152432113ms
+Logging level: 2
+
+
+DIS > client with id=wh3w-Y0jATrJMG1bAAAB disconnected
+DIS > client with id=e8GuvV0q684QJt3pAAAA disconnected
+REG > registered producer with id=Ehxi-FOD1BVbEMnlAAAC
+REG > registered consumer with id=cCTaQOe1wJtR_ZThAAAD
+SUB > client with id=cCTaQOe1wJtR_ZThAAAD registered for one
+SET > created new channel with id=one
+### Tarantula-Streams ###
+started server at 1592152441094ms
+Logging level: 2
+
+
+### Tarantula-Streams ###
+started server at 1592152447979ms
+Logging level: 2
+
+
+### Tarantula-Streams ###
+started server at 1592152458262ms
+Logging level: 2
+
+
+DIS > client with id=ioX6-CxrjGhjy-hfAAAA disconnected
+REG > registered consumer with id=2Jx_ouJWAd4hUpZXAAAC
+REG > registered producer with id=7Pq5UJb_YaONXOYDAAAB
+SUB > client with id=2Jx_ouJWAd4hUpZXAAAC registered for one
+SET > created new channel with id=one
+SUB > client with id=2Jx_ouJWAd4hUpZXAAAC registered for one
+ADD > client with id=7Pq5UJb_YaONXOYDAAAB added data instance to stack of channel with id=one
+### Tarantula-Streams ###
+started server at 1592152494046ms
+Logging level: 2
+
+
+DIS > client with id=KjmVa4ssBiCXokPhAAAB disconnected
+DIS > client with id=ZKOWzz4bkxIi41IZAAAA disconnected
+REG > registered producer with id=98BlXSI7D2y0EnNNAAAC
+REG > registered consumer with id=hbckjC0_jUpZi9v3AAAD
+SUB > client with id=hbckjC0_jUpZi9v3AAAD registered for one
+SET > created new channel with id=one
+ADD > client with id=98BlXSI7D2y0EnNNAAAC added data instance to stack of channel with id=one
+### Tarantula-Streams ###
+started server at 1592152521300ms
+Logging level: 2
+
+
+DIS > client with id=r25sD22cDfftGAQ-AAAB disconnected
+DIS > client with id=67sbCBrMRDh5J_OWAAAA disconnected
+REG > registered producer with id=QdkFlyfF0ppyEx8mAAAC
+REG > registered consumer with id=kZIU6oNGoF5yzDkpAAAD
+SUB > client with id=kZIU6oNGoF5yzDkpAAAD registered for one
+SET > created new channel with id=one
+ADD > client with id=QdkFlyfF0ppyEx8mAAAC added data instance to stack of channel with id=one
+ADD > client with id=QdkFlyfF0ppyEx8mAAAC added data instance to stack of channel with id=one
+ADD > client with id=QdkFlyfF0ppyEx8mAAAC added data instance to stack of channel with id=one
+ADD > client with id=QdkFlyfF0ppyEx8mAAAC added data instance to stack of channel with id=one
+ADD > client with id=QdkFlyfF0ppyEx8mAAAC added data instance to stack of channel with id=one
+ADD > client with id=QdkFlyfF0ppyEx8mAAAC added data instance to stack of channel with id=one
+### Tarantula-Streams ###
+started server at 1592152543187ms
+Logging level: 2
+
+
+DIS > client with id=DTEU0l_g21wstT9sAAAB disconnected
+DIS > client with id=-hEhQBLm3FQeWNV5AAAA disconnected
+REG > registered producer with id=Fit-k1Yh5T6KOPA8AAAC
+REG > registered consumer with id=9C20v0V8omdMOpQnAAAD
+SUB > client with id=9C20v0V8omdMOpQnAAAD registered for one
+SET > created new channel with id=one
+ADD > client with id=Fit-k1Yh5T6KOPA8AAAC added data instance to stack of channel with id=one
+ADD > client with id=Fit-k1Yh5T6KOPA8AAAC added data instance to stack of channel with id=one
+### Tarantula-Streams ###
+started server at 1592152588977ms
+Logging level: 2
+
+
+DIS > client with id=A5YZjyg_Qot5jx3PAAAA disconnected
+REG > registered producer with id=0OVf6u9BkDVPPYgGAAAC
+REG > registered consumer with id=6MkYJ6mi2yxFboLVAAAD
+SET > created new channel with id=one
+SUB > client with id=6MkYJ6mi2yxFboLVAAAD registered for one
+ADD > client with id=0OVf6u9BkDVPPYgGAAAC added data instance to stack of channel with id=one
+ADD > client with id=0OVf6u9BkDVPPYgGAAAC added data instance to stack of channel with id=one
+ADD > client with id=0OVf6u9BkDVPPYgGAAAC added data instance to stack of channel with id=one
+ADD > client with id=0OVf6u9BkDVPPYgGAAAC added data instance to stack of channel with id=one

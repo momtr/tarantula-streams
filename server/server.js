@@ -45,7 +45,7 @@ io.on('connection', socket => {
                 writeLog(1, `SUB > client with id=${socket.id} registered for ${data.channel}`)
                 if(channels.indexOf(data.channel) === -1) {
                     channels.push(data.channel);
-                    channelObjs[data.channel] = new Channel(data.channel, 1);
+                    channelObjs[data.channel] = new Channel(data.channel, config.batchSize || 1);
                     writeLog(1, `SET > created new channel with id=${data.channel}`)
                 }
                 channelObjs[data.channel].addConsumer(clientObjs[socket.id]);
@@ -75,7 +75,7 @@ io.on('connection', socket => {
             if(data && data.channel && data.payload) {
                 if(channels.indexOf(data.channel) === -1) {
                     channels.push(data.channel);
-                    channelObjs[data.channel] = new Channel(data.channel, 1);
+                    channelObjs[data.channel] = new Channel(data.channel, config.batchSize || 1);
                     writeLog(1, `SET > created new channel with id=${data.channel}`)
                 }
                 channelObjs[data.channel].addDataInstance(data);

@@ -10,9 +10,8 @@ class Channel {
     addDataInstance(data) {
         this.data.push(data);
         if(this.data.length == this.batchSize) {
-            console.log(this.consumers);
             for(let i of this.consumers) {
-                i.sendDataStack(data);
+                i.sendDataStack(this.data);
             }
             this.data = [];
         }

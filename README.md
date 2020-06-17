@@ -30,10 +30,10 @@ $ cd client && npm install
 1.3 Configure `port` and `logging level` as well as the `batchSize`: Go into `server/config.json` and configure the port of the server as well as the logging level (0 = basic, 2 = everything). 
 ```json
 {
-    "port": 3001, // port
-    "logging": true, // if logs should be generated
-    "logging_level": 2, // logging level
-    "batchSize": 2 // when event is emitted (after how many instances of data)
+    "port": 3001, 
+    "logging": true, 
+    "logging_level": 2,
+    "batchSize": 2 
 }
 ```
 

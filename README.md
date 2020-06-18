@@ -17,12 +17,12 @@ A channel is just a cluster of data, e.g. 'website_mouse_movements'.
 ## 🦕 Install
 
 ### 1. Server
-1.1 clone this repo
+1.1 Clone this repo
 ```
 $ git clone https://github.com/moritzmitterdorfer/tarantula-streams.git
 ```
 
-1.2 cd into server and install NPM packages
+1.2 Cd into server and install NPM packages
 ```
 $ cd client && npm install
 ```
